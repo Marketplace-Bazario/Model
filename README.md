@@ -1,4 +1,6 @@
-```
+# domain-model
+
+```mermaid
 classDiagram
 direction BT
 
