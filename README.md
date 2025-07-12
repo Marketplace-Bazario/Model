@@ -63,13 +63,6 @@ class Product {
   Array<String> images
 }
 
-class ProductImage {
-  UUID id
-  String url
-  String alt
-  Integer order
-}
-
 %% === RELATIONS ===
 
 User --> "1" Cart
@@ -79,8 +72,6 @@ CartItem --> "1" Product
 User --> "*" Order
 Order --> "*" OrderItem
 OrderItem --> "1" Product
-
-Product --> "*" ProductImage
 
 Product --> "1" Category
 Category --> "*" Product
