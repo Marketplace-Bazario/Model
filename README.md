@@ -1,4 +1,4 @@
-# domain-model
+# Domain Model
 
 ```mermaid
 classDiagram
@@ -85,5 +85,3 @@ Product --> "*" ProductImage
 Product --> "1" Category
 Category --> "*" Product
 
-
-```
