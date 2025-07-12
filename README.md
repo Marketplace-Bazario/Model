@@ -85,3 +85,4 @@ Product --> "*" ProductImage
 Product --> "1" Category
 Category --> "*" Product
 
+```
