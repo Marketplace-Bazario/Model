@@ -70,7 +70,7 @@ class ProductImage {
   Integer order
 }
 
-' === RELATIONS ===
+%% === RELATIONS ===
 
 User --> "1" Cart
 Cart --> "*" CartItem
